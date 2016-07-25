@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Under Maintenance</title>
-	<link type="text/css" rel="stylesheet" href="http://wpc.11a3.omicroncdn.net/0011A3/maintenance/site.css" charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="http://wac.11a3.omicroncdn.net/0011A3/maintenance/site.css" charset="UTF-8">
 	<script type="text/javascript">
 	  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
 	  analytics.load("cBx7EeeJMnOaSNikg8aL0Z1qumClXoob");
@@ -13,7 +13,7 @@
 	</script>
 	<style>
 	html {
-		background: url(http://wpc.11a3.omicroncdn.net/0011A3/maintenance/ricardo_error2.jpg) no-repeat center center fixed;
+		background: url(http://wac.11a3.omicroncdn.net/0011A3/maintenance/ricardo_error2.jpg) no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -113,7 +113,7 @@
 	<div class="over">
 	</div>
 	<div class="inner span8">
-		<img src="http://wpc.11a3.omicroncdn.net/0011A3/maintenance/OSlogo.png">
+		<img src="http://wac.11a3.omicroncdn.net/0011A3/maintenance/OSlogo.png">
 		<div class="inner-txt">
 			<h2>Under Maintenance</h2>
 			<p>We're doing maintenance tasks that require specific services to be unavailable.This shouldn't take too long, and we'll be back real soon.</p>
@@ -253,9 +253,8 @@ Adding additional hidden content to make sure IE renders the html
 Adding additional hidden content to make sure IE renders the html
 (if the content is less than 512 bytes, it always shows an HTTP 404)
 -->
-<script type="text/javascript">
-	var ref = document.referrer;
-	analytics.track('OP - Maintenance Page', context:{referrer: ref} ,{category: 'Page', label: 'Maintenance Page'});
+<script>
+	analytics.track('OP - Maintenance Page', {category: 'Page', label: 'Maintenance Page'});
 </script>
 </body>
 
